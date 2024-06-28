@@ -1,0 +1,27 @@
+NOTAS PARA CREAR EL PROYECTO
+1. Crear el PROYECTO desde cero, crear la carpeta en Escritorio. 
+2. Crear el primer archivo package.json. Usamos la terminal. Digitamos el comando: npm init -y . Crea el archivo 
+3. Instalar los módulos importantes:
+   Express: módulo para crear el servidor. 
+   Morgan:  ayuda para mostrar las peticiones por consola
+   ejs:     sirve para generar páginas html
+   
+   npm i express morgan ejs
+
+4. Módulos de desarrollo
+   Nodemon: 
+   npm nodemon -D
+
+5.- Ejecutar el código:
+
+    node src/index.js
+    npx nodemon src/index.js
+
+Agregamos el script:
+"dev" : "nodemon src/index.js" 
+
+y ahora:
+
+     npm run dev
+
+
